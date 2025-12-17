@@ -5,13 +5,13 @@ import StatsBanner from './StatsBanner';
 
 export default function BenefitsSection() {
   return (
-    <section id="beneficios" className="py-20 bg-gradient-to-r from-purple-900/20 to-pink-900/20">
-      <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="beneficios" className="py-20 relative overflow-hidden">
+      <div className="relative z-10 w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            ¿Por qué elegir <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">TechFlow</span>?
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-6">
+            ¿Por qué elegir <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">TechFlow</span>?
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-slate-600 dark:text-gray-300 max-w-3xl mx-auto">
             Descubre las ventajas que nos hacen únicos en el mercado
           </p>
         </div>

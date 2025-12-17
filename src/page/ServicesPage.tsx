@@ -12,7 +12,7 @@ export default function ServicesPage() {
             Contáctanos para más información
           </Link>
         </p>
-        <ServicesSection detailedView={true}/>
+        <ServicesSection detailedView={true} />
       </div>
     </div>
   );

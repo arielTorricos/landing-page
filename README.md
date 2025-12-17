@@ -1,69 +1,69 @@
-# React + TypeScript + Vite
+# TechFlow Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al repositorio de la Landing Page de TechFlow. Este proyecto es una página de aterrizaje moderna y responsiva diseñada para ofrecer soluciones tecnológicas innovadoras.
 
-Currently, two official plugins are available:
+## 🚀 Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Diseño Moderno y Atractivo**: Interfaz de usuario limpia con efectos de glassmorphism y gradientes.
+-   **Modo Claro y Oscuro**: Soporte completo para temas claro y oscuro, con cambio dinámico de fondo y colores.
+-   **Navegación Fluida**: Navegación intuitiva entre secciones (Inicio, Servicios, Beneficios, Testimonios, Contacto).
+-   **Totalmente Responsivo**: Adaptable a dispositivos móviles, tablets y escritorio.
+-   **Formulario de Contacto Funcional**: Validación de campos en tiempo real y estilos personalizados.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-   **React**: Biblioteca principal para la construcción de la interfaz.
+-   **TypeScript**: Tipado estático para un código más robusto.
+-   **Tailwind CSS**: Framework de utilidad para el diseño y estilos.
+-   **React Router**: Manejo de rutas y navegación.
+-   **Lucide React**: Iconos modernos y ligeros.
+-   **Vite**: Entorno de desarrollo rápido.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📸 Capturas de Pantalla
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+A continuación se presentan algunas vistas previas de la aplicación:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Inicio (Hero Section)
+![Inicio](src/assets/images/inicio.png)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Servicios
+![Servicios](src/assets/images/servicios.png)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Beneficios
+![Beneficios](src/assets/images/beneficios.png)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Testimonios
+![Testimonios](src/assets/images/testimonios.png)
+
+### Contáctanos
+![Contáctanos](src/assets/images/contactanos.png)
+
+### Modo Claro
+![Modo Claro](src/assets/images/ligth_mode.png)
+
+## 💻 Instalación y Ejecución
+
+1.  **Clonar el repositorio**:
+    ```bash
+    git clone https://github.com/arielTorricos/landing-page.git
+    ```
+
+2.  **Instalar dependencias**:
+    ```bash
+    npm install
+    ```
+
+3.  **Ejecutar en desarrollo**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Construir para producción**:
+    ```bash
+    npm run build
+    ```
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado como parte del Diplomado Módulo 4.
+© 2025 Ariel Torricos. Todos los derechos reservados.
